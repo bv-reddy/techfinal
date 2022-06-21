@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tech Hypergiant</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../imges/fevican.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+
+  <body>
+    <div id="header" class="d-block d-md-none"></div>
+    <!-- <div class="logo d-none d-md-block">
+      <p>Tech Hypergiant</p>
+    </div> -->
+
+    <div class="sideNavBar d-none d-md-block">
+      <div class="main-sidebar float-right d-none d-md-block">
+        <div class="menubar" onclick="myFunction()">
+          <i class="fas fa-bars fa-sm"></i>
+        </div>
+        <div class="socialmedia">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tech-hypergaint-83a657234"
+                target="_blank"
+                ><i class="fab fa-linkedin fa-sm socialmedia-icons"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=" https://www.instagram.com/tech_hypergiant/"
+                target="_blank"
+                ><i class="fab fa-instagram fa-sm socialmedia-icons"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/+916305419548" target="_blank"
+                ><i class="fab fa-whatsapp fa-sm socialmedia-icons"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.facebook.com/Tech_Hypergiant-103030702341594/"
+                target="_blank"
+                ><i class="fab fa-facebook fa-sm socialmedia-icons"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="explore">
+          <!-- <p>explore</p> -->
+        </div>
+      </div>
+
+      <div class="navbar-sec" id="navBar" style="display: none">
+        <div class="nav-start">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="company-overview.html">About Us</a></li>
+
+            <!-- About us dropdoen closed -->
+            <!-- <li class="dropdown-toggle lite" onclick="myNav()">
+            About Us
+            <span><i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+            <ul id="dropdown" class="drop">
+              <li><a href="./html/company-overview.html"> Company Overview </a></li>
+              <li><a href="whyus.html">Why HDS</a></li>
+            </ul>
+          </li> -->
+
+            <!-- cloud services links -->
+            <li class="dropdown-toggle lite" onclick="myNav3()">
+              Cloud Services
+              <span><i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+              <ul id="dropdown3" class="drop">
+                <li>
+                  <a href="microsoft-dynamic-crm.html">
+                    Microsoft Dynamics CRM
+                  </a>
+                </li>
+                <li><a href="dotnet.html">.NET</a></li>
+              </ul>
+              <!-- *** -->
+            </li>
+
+            <li class="dropdown-toggle lite" onclick="myNav2()">
+              Services
+              <span><i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+            </li>
+
+            <ul id="dropdown2" class="drop">
+              <li>
+                <a href="app-development.html">Application Development</a>
+              </li>
+              <li>
+                <a href="product-development.html">Product Development</a>
+              </li>
+              <li>
+                <a href="mobile-app-dev.html">Mobile App Development</a>
+              </li>
+
+              <li>
+                <a href="strategic-hiring.html">Strategic Hiring</a>
+              </li>
+            </ul>
+
+            <!-- <li><a href="certificates.html">Certificates</a></li> -->
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="totalBody">
+      <!-- carousel -section start -->
+
+      <section class="your-class">
+        <div class="mainBanner primaryColor">
+          <div class="container">
+            <div class="row">
+              <div class="logo d-none d-md-block">
+                <p>Tech Hypergiant</p>
+              </div>
+              <div class="col-sm-7 col-lg-6 col-md-12">
+                <div class="bannerText">
+                  <p>
+                    <span class="fontTertiaryColor"
+                      >Microsoft Dynamics CRM</span
+                    >
+                  </p>
+                  <p>
+                    Reach your Customers like never before. Know them better.
+                    Our Microsoft Dynamics CRM solutions will help you derive
+                    cutting-edge insights from real-time Customer data and help
+                    you deliver amazing Customer Experiences.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-5 col-lg-6 col-md-12 bannerImage">
+                <img
+                  src="imges/carousel imges/microsoftcrm.gif"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mainBanner primaryColor">
+          <div class="container">
+            <div class="row">
+              <div class="logo d-none d-md-block">
+                <p>Tech Hypergiant</p>
+              </div>
+              <div class="col-sm-7 col-lg-6 col-md-12">
+                <div class="bannerText">
+                  <p><span class="fontTertiaryColor">Web Development</span></p>
+                  <p>
+                    Your Search for a reliable partner to build your website
+                    ends with us. You value your time, so let us take care of
+                    all the parts of your website needs right from Creating and
+                    Hosting to Maintenance. You can focus on your business
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-5 col-lg-6 col-md-12 bannerImage">
+                <img
+                  src="imges/carousel imges/webdevelopment.gif"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mainBanner primaryColor">
+          <div class="container">
+            <div class="row">
+              <div class="logo d-none d-md-block">
+                <p>Tech Hypergiant</p>
+              </div>
+              <div class="col-sm-7 col-lg-6 col-md-12">
+                <div class="bannerText">
+                  <p>
+                    <span class="fontTertiaryColor">Mobile Development</span>
+                  </p>
+                  <p>
+                    Do you want to go mobile, but does the process intimidate
+                    you ? Well, Let us make it easier for you. We can create
+                    beautiful, fast and amazing looking apps packed full of
+                    features tailored to your brand and business and help you
+                    increase your customer base
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-5 col-lg-6 col-md-12 bannerImage">
+                <img
+                  src="imges/carousel imges/mobiledevelopment.gif"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mainBanner primaryColor">
+          <div class="container">
+            <div class="row">
+              <div class="logo d-none d-md-block">
+                <p>Tech Hypergiant</p>
+              </div>
+              <div class="col-sm-7 col-lg-6 col-md-12">
+                <div class="bannerText">
+                  <p>
+                    <span class="fontTertiaryColor">Digital Marketing</span>
+                  </p>
+                  <p>
+                    We are Digital Marketing Experts with years of experience.
+                    Organically increase your product reach. Acquire new
+                    customers. Our Digital Marketing Experts will create a brand
+                    plan for you and help you soar your business to new heights.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-5 col-lg-6 col-md-12 bannerImage">
+                <img
+                  src="imges/carousel imges/digitalmarketing.gif"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mainBanner primaryColor">
+          <div class="container">
+            <div class="row">
+              <div class="logo d-none d-md-block">
+                <p>Tech Hypergiant</p>
+              </div>
+              <div class="col-sm-7 col-lg-6 col-md-12">
+                <div class="bannerText">
+                  <p><span class="fontTertiaryColor">IT Services</span></p>
+                  <p>
+                    Our IT Services include providing IT Consultation to either
+                    choose the best available product or building a custom
+                    solution for your unique business. Our Experts provide you
+                    with valuable, need based solutions specially tailored for
+                    you and your budget
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-5 col-lg-6 col-md-12 bannerImage">
+                <img
+                  src="imges/carousel imges/itservices.gif"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel -section end -->
+
+      <!-- specialized-in-section-start -->
+      <section class="specialized-in-section">
+        <div class="container heading">
+          <h2
+            class="primary-heading wow animate__animated animate__slideInLeft"
+          >
+            Our Core Services
+          </h2>
+        </div>
+        <div class="row container specialized-in-row-1">
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette1">
+                <img src="imges/coreservices/graphicdesign.svg" alt="" />
+                <h3>Graphic Design</h3>
+                <p class="services-discription">
+                  Build and create new Digital Experiences. Our Maverick team of
+                  Graphic Designers will bring life to your unique virtual ideas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette2">
+                <img src="imges/coreservices/webdesign.svg" alt="" srcset="" />
+                <h3>Web Design & Development</h3>
+                <p class="services-discription">
+                  Our team of professional Web Developers will create anything
+                  you imagine your website to be. We can Build anything at scale
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette3">
+                <img src="imges/coreservices/appdesign.svg" alt="" />
+                <h3>App Development</h3>
+                <p class="services-discription">
+                  We build delightful apps. Our team of app developers create
+                  not just beautiful apps, but create amazing experiences on
+                  mobile
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette4">
+                <img src="imges/coreservices/cloudservices.svg" alt="" />
+                <h3>Cloud Services</h3>
+                <p class="services-discription">
+                  We provide solutions using Microsoft Dynamics CRM. Our
+                  expertise will lead you to deliver customer experience like
+                  never before
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette5">
+                <img src="imges/coreservices/itservices.svg" alt="" />
+                <h3>IT Services</h3>
+                <p class="services-discription">
+                  We provide a gamut of IT Services. Whatever your needs may be,
+                  we are here to help you out with any IT Service you need
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 coreBox">
+            <div class="">
+              <div class="coreBoxInner pallette6">
+                <img src="imges/coreservices/itstaffing.svg" alt="" />
+                <h3>IT Staffing</h3>
+                <p class="services-discription">
+                  Augment your Staff your team with our IT Staffing Solutions.
+                  We provide IT Resources for any kind of engagement, short or
+                  long
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- specialized-in-section-end -->
+      <!-- ********************************* -->
+      <!-- about-us-section-start -->
+      <div class="about-us-section">
+        <div class="row container">
+          <div class="col-sm-7 aboutUsText">
+            <h2 heading-h2>About Us</h2>
+            <h3 heading-h3>Grow Your Business With Tech Hypergiant</h3>
+            <p class="About_description">
+              Tech Hypergiant is a startup with big ideas. We started as a
+              business to provide innovative IT solutions and engagement models
+              across the IT industry. We are a team of people with vast
+              experience in customizing solutions based on your needs. Our aim
+              is to provide you with the best tools for your business with
+              clarity, speed and best quality.
+            </p>
+          </div>
+          <div class="col-sm-5 aboutUsImage">
+            <img
+              class="img-fluid"
+              src="./imges/services/aboutus/lpaboutus.png"
+              alt="About-img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- about-us-section-end -->
+
+      <div id="footer"></div>
+    </div>
+    <!-- footer-section-end -->
+
+    <script>
+      function myNav() {
+        document.getElementById("dropdown").classList.toggle("show");
+        preventDefault()
+      }
+
+      function myNav2() {
+        document.getElementById("dropdown2").classList.toggle("show");
+      preventDefault()
+      }
+
+      function myNav3() {
+        document.getElementById("dropdown3").classList.toggle("show");
+        preventDefault()
+      }
+    </script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navBar");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+    <script>
+      $(".your-class").slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+              arrows: false,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+    <script>
+      window. addEventListener('mouseup', function(event)
+      { 
+        var box = document. getElementById('navBar'); 
+        if (event. target != box && event. target. parentNode != box)
+        { box. style. display = 'none';} 
+      });
+    </script>
+  </body>
+</html>

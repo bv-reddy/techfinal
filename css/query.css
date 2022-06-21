@@ -1,0 +1,186 @@
+/* 769px — 1024px: Small screens, laptops */
+@media only screen and (max-width: 1023px) {
+  .coreBox h3 {
+    font-size: 18px;
+  }
+  .navbar-sec {
+    left: 38px;
+  }
+  p {
+    font-size: 14px;
+  }
+  /* .mainBanner {
+    height: 100vh;
+  } */
+  .bannerText {
+    padding: 100px 0 0 0;
+  }
+
+  /* footer */
+  h3 {
+    font-size: 18px;
+  }
+  .links-list a {
+    font-size: 16px;
+  }
+  .Social_links a {
+    font-size: 16px;
+  }
+  p.Address {
+    font-size: 16px;
+  }
+  .copy-right {
+    /* font-size: 14px; */
+    font-size: 9px;
+  }
+  .copy-right-text {
+    font-size: 9px;
+  }
+  .border {
+    display: none;
+  }
+  .phone-no {
+    display: none;
+  }
+  /* ***************** */
+}
+
+/* ***************************** */
+
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 768px) {
+  .bannerText {
+    padding: 10px 0;
+  }
+  .bannerImage img {
+    padding: 0;
+  }
+  .mainBanner p {
+    font-size: 14px;
+  }
+  .mainBanner span {
+    font-size: 1.3rem;
+  }
+  .aboutUsText h3 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 18px;
+  }
+  .totalBody {
+    width: 100%;
+  }
+  /* footer */
+  .footer-logo {
+    padding: 5px;
+  }
+  ul.links-list {
+    font-size: 14px;
+  }
+  .Social_links {
+    font-size: 14px;
+  }
+  p.Address {
+    font-size: 14px;
+  }
+  .sub-footer-section {
+    padding-top: 0;
+  }
+  /* *** */
+}
+/* ************************************** */
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+  /* .totalBody {
+    width: 95%;
+  } */
+}
+
+/* *************************** */
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+}
+
+@media (max-width: 500px) {
+  .primary-heading {
+    font-size: 2rem;
+  }
+  .aboutUsText h2 {
+    font-size: 2rem;
+  }
+  .footer-section {
+    text-align: center;
+  }
+
+  .coreBox h3 {
+    font-size: 18px;
+  }
+
+  .ms-list {
+    margin-left: 1rem;
+  }
+
+  .reducer {
+    padding-left: 0px !important;
+  }
+
+  .reducer1 {
+    padding-left: 1.2rem !important;
+  }
+
+  .talent-hiring h3 {
+    margin-top: 15px;
+  }
+}
+@media (width: 768px) {
+  .bannerText {
+    padding: 100px 0 0 0;
+  }
+  .bannerImage img {
+    padding: 0;
+  }
+  .space {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .space {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .totalBody {
+    width: 95%;
+  }
+
+  .bannerImage img {
+    margin: 0 auto;
+  }
+
+  .navbar {
+    font-size: 12px;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+  }
+
+  .dropdown-menu {
+    min-width: 15rem;
+  }
+
+  .coreBoxInner {
+    min-height: 23rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .ms-list {
+    font-size: 14px;
+    margin-left: 3rem;
+  }
+}

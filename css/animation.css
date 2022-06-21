@@ -1,0 +1,74 @@
+/* company-overview page */
+.transition-left :hover {
+  transform: rotate(-5deg);
+  border-right: 5px solid #777fec;
+  border-bottom: 5px solid #999ddb;
+  border-radius: 30px;
+}
+.transition-right :hover {
+  transform: rotate(5deg);
+  border-right: 5px solid #777fec;
+  border-bottom: 5px solid #999ddb;
+  border-radius: 30px;
+}
+/* .about-us:hover {
+  border-top: 5px solid rgb(250, 39, 39);
+  border-bottom: 5px solid rgb(250, 39, 39);
+} */
+
+/* mobileappdev-page */
+.mobileappdev-img :hover {
+  /* border-radius: 50%; */
+  transform: translate3d(5ch, 0.4in, 5em);
+}
+/* add class="icons-transform" in index line 251,267,283,301,316,332 */
+.icons-transform:hover {
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-30%);
+  transform: translateX(-30%);
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  transition-timing-function: ease, ease;
+  transition-timing-function: cubic-bezier(0.12, 0.845, 0.305, 1);
+}
+
+.socialmedia-icons:hover {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.socialmedia-icons {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  vertical-align: top;
+  border-radius: 50%;
+  background: #0a66c2;
+}
+.fa-facebook {
+  background-color: #4267b2;
+}
+.fa-linkedin {
+  background-color: #0a66c2;
+}
+.fa-whatsapp {
+  background-color: #25d366;
+}
+.fa-instagram {
+  background-color: #e95950;
+}
+/* .fa-linkedin:hover {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  vertical-align: top;
+  border-radius: 50%;
+} */
